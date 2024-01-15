@@ -14,14 +14,6 @@ class RegistrazioneAudio extends ElementoMultimediale implements Riproducibile {
         this.volume = volume;
     }
 
-    public void abbassaVolume() {
-        volume--;
-    }
-
-    public void alzaVolume() {
-        volume++;
-    }
-
     public void play() {
         for (int i = 0; i < durata; i++) {
             System.out.println(titolo + " " + "!".repeat(volume));

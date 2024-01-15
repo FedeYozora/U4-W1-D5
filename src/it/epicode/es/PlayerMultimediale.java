@@ -44,7 +44,7 @@ public class PlayerMultimediale {
 
             if (scelta >= 1 && scelta <= 5) {
                 elementi[scelta - 1].esegui();
-            } else {
+            } else if (scelta != 0) {
                 System.out.println("Scelta non valida");
             }
         }

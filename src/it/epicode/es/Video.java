@@ -16,12 +16,8 @@ class Video extends ElementoMultimediale implements Riproducibile {
         this.volume = volume;
     }
 
-    public void aumentaLuminosita() {
-        luminosita++;
-    }
-
-    public void diminuisciLuminosita() {
-        luminosita--;
+    public void setLuminosita(int luminosita) {
+        this.luminosita = luminosita;
     }
 
     public void play() {
